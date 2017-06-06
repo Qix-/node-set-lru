@@ -1,0 +1,34 @@
+{
+  "name": "set-lru",
+  "description": "A set API for the LRU package",
+  "version": "0.1.0",
+  "author": "Qix (http://github.com/qix-)",
+  "keywords": [
+    "lru",
+    "least",
+    "recently",
+    "used",
+    "set"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pretest": "xo",
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": "qix-/node-set-lru",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "lru": "^3.1.0",
+    "object-id": "0.0.1"
+  }
+}
